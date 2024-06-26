@@ -1,0 +1,11 @@
+{
+    "path": {
+        "root": "@=src",
+        "api": "src/api",
+        "request": "../utils/request"
+    },
+    "api": [],
+    "component": {
+        "scope": ["src/components", "src/views"]
+    }
+}
