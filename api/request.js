@@ -1,4 +1,3 @@
-// api/request.js
 const axios = require('axios');
 
 class HttpRequest {
