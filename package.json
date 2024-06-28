@@ -1,6 +1,6 @@
 {
     "name": "beeboat-cli",
-    "version": "1.0.1",
+    "version": "1.0.7",
     "description": "基于beeboat-plus的新版脚手架",
     "bin": {
         "beeboat-cli": "bin/cli.js"
@@ -8,7 +8,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "于智勇｜15684187702@163.com",
     "license": "ISC",
     "devDependencies": {
         "@vue/cli": "^5.0.8",
