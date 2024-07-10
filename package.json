@@ -6,7 +6,9 @@
         "beeboat-cli": "bin/cli.js"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "publish-patch": "npm version patch && npm publish",
+        "publish-minor": "npm version minor && npm publish",
+        "publish-major": "npm version major && npm publish"
     },
     "author": "于智勇｜15684187702@163.com",
     "license": "ISC",
