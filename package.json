@@ -7,9 +7,9 @@
     },
     "scripts": {
         "auto-push": "git push && git push --tag",
-        "publish-patch": "npm version patch && npm run auto-push",
-        "publish-minor": "npm version minor && npm publish",
-        "publish-major": "npm version major && npm publish"
+        "publish-patch": "npm version patch && npm publish && npm run auto-push",
+        "publish-minor": "npm version minor && npm publish && npm run auto-push",
+        "publish-major": "npm version major && npm publish && npm run auto-push"
     },
     "author": "于智勇｜15684187702@163.com",
     "license": "ISC",
