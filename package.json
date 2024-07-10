@@ -6,8 +6,8 @@
         "beeboat-cli": "bin/cli.js"
     },
     "scripts": {
-        "push-tag": "git push --tag",
-        "publish-patch": "npm version patch && npm run push-tag",
+        "auto-push": "git push && git push --tag",
+        "publish-patch": "npm version patch && npm run auto-push",
         "publish-minor": "npm version minor && npm publish",
         "publish-major": "npm version major && npm publish"
     },
