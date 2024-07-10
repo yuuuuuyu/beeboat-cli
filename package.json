@@ -1,6 +1,6 @@
 {
     "name": "beeboat-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "基于beeboat-plus的新版脚手架",
     "bin": {
         "beeboat-cli": "bin/cli.js"
